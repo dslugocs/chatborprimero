@@ -1,10 +1,10 @@
-import streamlit as st
+import streamlit as st 
 import requests
 
-# 1. Configuración inicial
-st.set_page_config(page_title="mi primer chat bot", page_icon="🤖")
+# 1. Configuración inicial (corregido el título)
+st.set_page_config(page_title="chat hpt", page_icon="🤖")
 
-st.title("🤖 mi primer chat bot")
+st.title("🤖 chat hpt")
 st.markdown("Selecciona un modelo, escribe tu mensaje y conversa con el LLM.")
 
 # 2. Clave API
@@ -58,4 +58,3 @@ if st.button("Enviar"):
             respuesta = generar_respuesta(modelo_id, mensaje_usuario)
         st.markdown("### 💬 Respuesta:")
         st.write(respuesta)
-
