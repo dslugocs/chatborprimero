@@ -1,0 +1,7 @@
+[theme]
+primaryColor = "#FF0000"              # rojo
+backgroundColor = "#0000FF"           # azul oscuro
+secondaryBackgroundColor = "#3366FF"  # azul más claro
+textColor = "#FFFFFF"                 # blanco para que contraste
+font = "sans serif"
+
